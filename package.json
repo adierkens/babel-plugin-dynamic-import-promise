@@ -1,0 +1,29 @@
+{
+  "version": "0.0.0",
+  "description": "Babel plugin to transpile `import()` to Promises",
+  "repository": "adierkens/babel-plugin-dynamic-import-promise",
+  "author": "Adam Dierkens <adam@dierkens.com>",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register",
+    "test:watch": "npm run test -- --watch",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "dynamic",
+    "import",
+    "webpack",
+    "jest",
+    "babel-plugin"
+  ]
+}
