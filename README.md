@@ -1,4 +1,4 @@
-# babel-plugin-dynamic-import-promise
+# babel-plugin-dynamic-import-promise [![Build Status](https://travis-ci.org/adierkens/babel-plugin-dynamic-import-promise.svg?branch=master)](https://travis-ci.org/adierkens/babel-plugin-dynamic-import-promise)
 
 Babel plugin to transpile `import()` to Promises
 
