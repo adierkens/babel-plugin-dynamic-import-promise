@@ -1,3 +1,1 @@
-"use strict";
-
-var foo = undefined;
+const x = Promise.resolve(require('foo'));
