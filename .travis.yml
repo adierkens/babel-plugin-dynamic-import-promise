@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - v5
+- v5
+deploy:
+  provider: npm
+  email: adam@dierkens.com
+  api_key:
+    secure: RAcV0TUUz5Z7ZYhYVoKlQa+Iow/SGG42NbRebW5wlDM0EoXOaXYoLhWxKp9B7MV7ixcdGJKFl6yztc5mYDVuNTaJqv79zsEB8DFjbvljAvgHlarSV6EcU1vpjJ9E7dwM4651f8drJXTTWQiZdpsSnBapJmc+S055Y+i+umrqZBng2C70Q5fiB5i12eiUi4txWGKHUlOSC0hOX6qLWFQh/c5+aByKhHrX9m6PBChj2rFtPMeawXKPfKpYQti6aE0lB3qEt9ZB1I/Bic8dpjqNf053jugAwDIHdZpZ9XcX7KEOMosK7BcarNPMeLwgTl+UjroYkpVNCRbr0w1UhPLqhuyob7dw82/luQ72u2mTBN/aTkcktt3By+qcaBbxhR8fVBKJoUeRs85u6ka5Y1ZUCSl+WowenKqRF2xCdqOJH+PXiAeMIfbpRhxK6QfBX/ytkMvuTI5QowXVzh/J9EnQA73Zpue+mjKxGwSUkow2yEYnrS5U/FWPJc2WQbjka7baxUf8Cx9QpPKJZ6Wcw+hcFP2rO/ml7mraKtjiPseZBFJAFbi5If+2FRt0EQwVifqM5YvOHxNAc9RgNOA8HapUWvE6BSh/hcSNjy8atmANinfB6n4juPJ3aW1bHDZlmzKJ0JwGmOE2K5D4CtBbk5JmRXlI2mzCmBR7C2/0PC8NnxA=
+  on:
+    tags: true
+    repo: adierkens/babel-plugin-dynamic-import-promise
