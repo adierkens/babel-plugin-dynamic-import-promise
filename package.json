@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "name": "babel-plugin-dynamic-import-promise",
   "description": "Babel plugin to transpile `import()` to Promises",
   "repository": "adierkens/babel-plugin-dynamic-import-promise",
