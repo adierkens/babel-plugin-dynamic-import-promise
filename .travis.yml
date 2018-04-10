@@ -9,3 +9,4 @@ deploy:
   on:
     tags: true
     repo: adierkens/babel-plugin-dynamic-import-promise
+  skip_cleanup: true
